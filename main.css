@@ -38,7 +38,7 @@ html, body {
 }
 
 .nav a:hover {
-	background-color: rgba(255,255,255, .3)
+	background-color: rgba(255,255,255, .3);
 }
 
 .main-nav {
@@ -58,6 +58,4 @@ html, body {
 	background-color: rgba(0,0,0, .6);
 	background-blend-mode: multiply;
 	padding-bottom: 90px;
-	
-	
 }
