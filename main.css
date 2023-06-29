@@ -53,9 +53,11 @@ html, body {
 }
 
 .main-header {
-	background-image: url(/images/Pasteis-de-Nata.jpg);
+	background-image: url(/images/pasteis-de-Nata.jpg);
 	background-size: cover;
 	background-color: rgba(0,0,0, .6);
 	background-blend-mode: multiply;
 	padding-bottom: 90px;
+	
+	
 }
