@@ -53,7 +53,7 @@ html, body {
 }
 
 .main-header {
-	background-image: url(/images/pasteldenata.jpg);
+	background-image: url(images/pasteldenata.jpg);
 	background-size: cover;
 	background-color: rgba(0,0,0, .6);
 	background-blend-mode: multiply;
