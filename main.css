@@ -4,8 +4,14 @@
 	box-sizing: border-box;
 	font-family: Raleway, sans-serif;
 	color: #0E2239;
+	
+	
 }
 
+img {
+	width: 450px;
+	height: auto;
+}
 
 html, body {
 	margin: 0;
@@ -16,7 +22,7 @@ html, body {
 
 .title {
 	text-align: center;
-	font-size: 4em;
+	font-size: 5em;
 	font-family: 'Times New Roman', Times, serif;
 	padding: 205px;
 	color: rgba(255,255,255, .6);
@@ -59,3 +65,50 @@ html, body {
 	background-blend-mode: multiply;
 	padding-bottom: 90px;
 }
+
+
+
+.intro-container  {
+	display: flex;
+}
+
+.intro-container p {
+	flex: 1;
+  box-sizing: border-box;
+  padding: 10px;
+  font-weight: bolder;
+  margin: 2em;
+}
+
+h2 {
+	text-align: center;
+}
+
+.ingredients {
+	display: flex; 
+	justify-content: space-between;
+  }
+  
+  .ingredients > div {
+	flex: 1; 
+	margin: 10px; 
+	padding-left: 80px;
+	padding-right: 80px;
+  }
+
+  .border {
+	border: 10px solid lightgray;
+  }
+  
+  .ingredients h3 {
+	margin-top: 0; 
+  }
+  
+  .ingredients ul {
+	padding-inline-start: 0; 
+	list-style: none; 
+  }
+
+  .chefsnotes {
+	font-weight: bolder;
+  }
