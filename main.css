@@ -4,18 +4,17 @@
 	box-sizing: border-box;
 	font-family: Raleway, sans-serif;
 	color: #0E2239;
+	margin: 0;
 	
 	
 }
 
 img {
-	width: 450px;
-	height: auto;
+	width: 300px;
+	border-radius: 40px;
 }
 
 html, body {
-	margin: 0;
-	padding: 0;
 	background-color: #B9D0E9;
 }
 
@@ -63,37 +62,39 @@ html, body {
 	background-size: cover;
 	background-color: rgba(0,0,0, .6);
 	background-blend-mode: multiply;
-	padding-bottom: 90px;
+	padding-bottom: 180px;
+	
 }
 
 
 
 .intro-container  {
 	display: flex;
+	justify-content: baseline;
+	
 }
 
 .intro-container p {
-	flex: 1;
-  box-sizing: border-box;
+  margin: 20px 20px;
   padding: 10px;
-  font-weight: bolder;
-  margin: 2em;
+  border: 10px solid lightgray;
+  
+  
 }
 
 h2 {
 	text-align: center;
+    margin: 30px;
 }
 
 .ingredients {
 	display: flex; 
-	justify-content: space-between;
+	justify-content:space-around;
   }
   
   .ingredients > div {
-	flex: 1; 
-	margin: 10px; 
-	padding-left: 80px;
-	padding-right: 80px;
+	margin: 20px; 
+	padding: 10px;
   }
 
   .border {
@@ -111,4 +112,29 @@ h2 {
 
   .chefsnotes {
 	font-weight: bolder;
+	margin: 20px 20px;
+	padding-left: 100px;
+	padding-right: 100px;
   }
+
+  .steps {
+	display: flex;
+	max-width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+.steps div {
+	border: 10px solid lightgray;
+	margin-bottom: 20px; /* Add margin-bottom instead of margin */
+	padding: 25px; /* Remove padding */
+	flex-basis: calc(33% - (40px /3)); /* Adjust flex-basis calculation */
+	box-sizing:border-box; 
+
+}
+
+.nav-2 {
+	border-bottom: 1px solid rgba(255,255,255, .3);
+	background-color: lightskyblue;
+}
